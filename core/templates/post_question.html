@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card p-4 mx-auto" style="max-width: 700px;">
+    <h2 class="mb-4">Post a Question</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-success">Submit</button>
+    </form>
+    <a href="{% url 'question_list' %}" class="btn btn-link mt-3">← Back to Questions</a>
+</div>
+{% endblock %}
