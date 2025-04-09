@@ -7,7 +7,7 @@ Users can register, log in, post questions, answer others’ questions, like ans
 
 ## 🚀 Features
 
-- 🔐 User Registration & Login (single password field)
+- 🔐 User Registration & Login
 - ❓ Post Questions
 - 📖 View All Questions
 - ✍️ Answer Questions
@@ -57,7 +57,6 @@ quora_clone/
 
 ```bash
 git clone https://github.com/vikaaas-99/quora-clone.git
-
 ```
 
 ### 2. Create Virtual Environment & Install Dependencies
@@ -93,5 +92,3 @@ Visit: [http://localhost:8000](http://localhost:8000)
 ## 🛡️ Admin Panel
 
 Access the Django admin at: [http://localhost:8000/admin](http://localhost:8000/admin)
-
-You'll find `Questions` and `Answers` with filters, search, and ordering enabled.
