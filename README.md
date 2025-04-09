@@ -28,25 +28,26 @@ Users can register, log in, post questions, answer others’ questions, like ans
 ## 📂 Project Structure
 
 ```
+core/
+├── migrations/
+├── templates/
+├── base.html
+│   ├── login.html
+│   ├── register.html
+│   ├── question_list.html
+│   ├── post_question.html
+│   └── question_detail.html
+├── admin.py
+├── models.py
+├── views.py
+├── forms.py
+└── urls.py
 quora_clone/
-├── core/
-│   ├── migrations/
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── login.html
-│   │   ├── register.html
-│   │   ├── question_list.html
-│   │   ├── post_question.html
-│   │   └── question_detail.html
-│   ├── admin.py
-│   ├── models.py
-│   ├── views.py
-│   ├── forms.py
-│   └── urls.py
-├── quora_clone/
-│   └── settings.py
-│   └── urls.py
-└── manage.py
+└── settings.py
+└── urls.py
+.gitignore
+README.md
+manage.py
 ```
 
 ---
